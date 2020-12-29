@@ -1,0 +1,23 @@
+{
+  "name": "auth_with_passport",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sirwan <sir1afifi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "3.3.0",
+    "typescript": "3.3.3333",
+    "@types/node": "^8.0.29"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "express": "^4.17.1",
+    "typeorm": "0.2.29",
+    "reflect-metadata": "^0.1.10",
+    "sqlite3": "^4.0.3"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "typeorm": "ts-node ./node_modules/typeorm/cli.js"
+  }
+}
